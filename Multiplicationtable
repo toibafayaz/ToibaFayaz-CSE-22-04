@@ -1,0 +1,18 @@
+        // Multiplication table  :
+        #include<stdio.h>
+        int main(){
+          int n;
+          printf("Enter a number :");
+          scanf("%d",&n);
+          int i=n;
+          int j=1;
+          while(i<=(n*10),j<=10)
+          {
+            printf("%d * %d = %d \n",n,j,i);
+            i=i+n;
+            j++;
+            }
+           
+         
+           return 0;
+          }

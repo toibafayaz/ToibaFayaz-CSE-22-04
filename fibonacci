@@ -1,0 +1,18 @@
+      // Fibonacci series  using recursion :
+      #include<stdio.h>
+      int fibo (int n ){
+      if (n==1 || n==2)
+      return 1;
+      return  fibo(n-1)+fibo(n-2);
+      }
+      int main (){
+      int x ;
+      printf("Enter  number of terms of fibonacci  :");
+      scanf("%d",&x);
+      int i;
+      for(i=0;i<=x;i++)
+      {
+        printf("%d",fibo(i));
+        }
+      return 0;
+      }

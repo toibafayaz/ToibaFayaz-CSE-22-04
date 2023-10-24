@@ -1,0 +1,15 @@
+      // Count digits  using recursion :
+      #include<stdio.h>
+      int count (int n ){
+      if (n==0)
+      return 0 ;
+      return 1 +count(n/10);
+      }
+      int main (){
+      int x;
+      printf("Enter a number :");
+      scanf("%d",&x);
+      int c=count(x);
+      printf("The number of digits are %d",c);
+      return 0;
+      }

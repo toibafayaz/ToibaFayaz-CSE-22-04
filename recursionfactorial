@@ -1,0 +1,15 @@
+      // Factorial using recursion :
+      #include<stdio.h>
+      int factorial (int n ){
+      if (n<=0)
+      return 1;
+      return n* factorial(n-1);
+      }
+      int main (){
+      int x ;
+      printf("Enter a number :");
+      scanf("%d",&x);
+      int fact=factorial(x);
+      printf("The factorial of number is %d",fact);
+      return 0;
+      }

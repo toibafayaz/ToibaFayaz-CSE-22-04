@@ -1,0 +1,13 @@
+        // Area of triangle:
+        #include<stdio.h>
+        int main (){
+        int b; //b is  base of triangle
+        printf("Enter base of the triangle :");
+        scanf("%d",&b);
+        int a; //a is altitude of triangle
+        printf("Enter altitude of triangle :");
+        scanf("%d",&a);
+        float area =0.5*(b*a);
+        printf("Area of triangle is %f",area);
+        return 0;
+        }

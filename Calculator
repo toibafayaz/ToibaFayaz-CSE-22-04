@@ -1,0 +1,29 @@
+      // Calculator by switch:
+      #include<stdio.h>
+      int main (){
+      int x,y,opt;
+      printf("Enter 1st number :");
+      scanf("%d",&x);
+      printf("Enter 2nd number :");
+      scanf("%d",&y);
+      printf("Enter your choice :  1:add,2:sub,3:mult,4:division");
+      scanf("%d",&opt);
+      switch(opt)
+      {
+        case 1:
+        printf("Add is %d",x+y);
+        break;
+        case 2:
+        printf("Sub is %d",x-y);
+        break;
+        case 3:
+        printf("Multiplicaion is %d",x*y);
+        break;
+        case 4:
+        printf("Division is %d",x/y);
+        break;
+        default:
+        printf("None ");
+        }
+        return 0;
+        }

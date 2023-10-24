@@ -1,0 +1,19 @@
+    // Call by Value :
+    #include<stdio.h>
+    void swap(int ,int);
+    int main (){
+    int a=2;
+    int b=9;
+    swap(a,b);
+    printf("After function call a is %d\n",a);
+    printf("After function call b is %d\n",b);
+    return 0;
+    }
+    void swap(int x,int y){
+    int temp =x;
+    x=y;
+    y=temp;
+    printf("In function definition x is %d\n",x);
+    printf("In function definition y is %d\n",y);
+    }
+    

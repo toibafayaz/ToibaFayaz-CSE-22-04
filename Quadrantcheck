@@ -1,0 +1,41 @@
+        // To check Quadrant and axis  of given point :
+        #include<stdio.h>
+        int main (){
+        int x;
+        printf("Enter x coordinate of point :");
+        scanf("%d",&x);
+        int y;
+        printf("Enter y coordinate of point :");
+        scanf("%d",&y);
+        //for axis
+        if(x==0 && y==0)
+         {
+         printf("The point is on origin\n");
+         }
+         else if (y==0)
+         {
+         printf("The point is on x axis\n");
+         }
+         else if (x==0)
+         {
+         printf("The point is on y axis\n");
+         }
+         //for quadrant 
+         if(x>0 && y>0)
+         {
+         printf("The point is in first quadrant \n");
+         }
+         else if (x<0 && y>0)
+         {
+         printf("The point is in second quadrant \n");
+         }
+         else if (x<0 && y<0)
+         {
+         printf("The point is in third quadrant \n");
+         }
+         else
+         {
+         printf("The point is in fourth quadrant \n");
+         }
+        return 0;
+        }
